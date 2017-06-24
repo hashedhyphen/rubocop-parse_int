@@ -1,0 +1,8 @@
+Lint/KernelIntegerWithoutBase:
+  Description: 'Checks for calls to Kernel.#Integer without a base.'
+  Enabled: true
+
+Lint/StringToInteger:
+  Description: 'Check for possible calls to String#to_i instead of Kernel#.Integer.'
+  Enabled: true
+  Severity: convention
